@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        getSupportActionBar().hide();
 
         CheckBox eyesCheckBox = (CheckBox) findViewById(R.id.eyes_checkbox);
         View eyesView = findViewById(R.id.eyesView);
@@ -109,23 +110,4 @@ public class MainActivity extends AppCompatActivity {
                 break;
         }
     }
-
-
-
-    //public View hatView = findViewById(R.id.hatView);
-    //private ImageView glassesImageView = (ImageView) findViewById(R.id.glassesView);
-//    private CheckBox hatCheckBox = (CheckBox) findViewById(R.id.hat_checkbox);
-
-
-    //hatCheckbox.
-
-//    public void removeHat(View view) {
-//        CheckBox hatCheckBox = (CheckBox) view;
-//        View hatView = findViewById(R.id.hatView);
-//        if(hatCheckBox.isChecked()) {
-//            hatView.setVisibility(View.VISIBLE);
-//        } else {
-//            hatView.setVisibility(View.INVISIBLE);
-//        }
-//    }
 }
