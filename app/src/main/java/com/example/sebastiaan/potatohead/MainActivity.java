@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // find ids of the image Views
+        // find ids of the image Views 
         armsView = findViewById(R.id.armsView);
         earsView = findViewById(R.id.earsView);
         eyebrowsView = findViewById(R.id.eyebrowsView);
